@@ -1,0 +1,9 @@
+// 1.21	2025-01-12T11:57:26.6862386	Random Mod/Tags for minecraft:block
+d33f916c1c3e55b58fe8aff1cf18646edc6158ec data\minecraft\tags\block\needs_diamond_tool.json
+a3f87c89f1c95515981f0066b4bfd87689a9284f data\minecraft\tags\block\logs_that_burn.json
+a381e65ccd771fa32a1ceb0dba1abe5950c78c1f data\minecraft\tags\block\fence_gates.json
+0aaa5f3941c1e02efa4433908b956e50f0c9ada7 data\minecraft\tags\block\walls.json
+3b9b5638abd137fa77533f02d9c8ab589c0ea43e data\minecraft\tags\block\needs_iron_tool.json
+3e4faa6016be8988c98e8d691954d00752928d5f data\random-mod\tags\block\needs_pink_garnet_tool.json
+cfd71b8437db80451f682ba49d188d3a28944565 data\minecraft\tags\block\fences.json
+3ad6c6ef6dcb21172a7901cecac8c193188ae636 data\minecraft\tags\block\mineable\pickaxe.json

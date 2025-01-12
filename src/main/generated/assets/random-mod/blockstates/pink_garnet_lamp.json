@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "random-mod:block/pink_garnet_lamp"
+    },
+    "clicked=true": {
+      "model": "random-mod:block/pink_garnet_lamp_on"
+    }
+  }
+}

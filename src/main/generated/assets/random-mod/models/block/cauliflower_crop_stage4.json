@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "random-mod:block/cauliflower_crop_stage4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "random-mod:block/pink_garnet_pressure_plate"
+    },
+    "powered=true": {
+      "model": "random-mod:block/pink_garnet_pressure_plate_down"
+    }
+  }
+}

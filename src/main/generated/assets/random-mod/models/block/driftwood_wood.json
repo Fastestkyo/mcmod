@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "random-mod:block/driftwood_log",
+    "side": "random-mod:block/driftwood_log"
+  }
+}

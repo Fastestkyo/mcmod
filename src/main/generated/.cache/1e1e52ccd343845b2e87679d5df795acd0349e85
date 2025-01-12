@@ -1,0 +1,12 @@
+// 1.21	2025-01-12T11:57:26.6621375	Random Mod/Tags for minecraft:item
+5d980f283c325d77f5cb64aaa71cc4a804573df9 data\minecraft\tags\item\axes.json
+515511f5c787a2a48b71d419239da091702151e7 data\minecraft\tags\item\shovels.json
+a4feb2fa0a79400c6ed3137d4010b30c5d9a0beb data\minecraft\tags\item\planks.json
+e53d622093c6415802a45ccec0ed0445d15766a2 data\minecraft\tags\item\swords.json
+5672e7cae746fd7679405001598d1cbcc9f2a8cd data\minecraft\tags\item\trim_materials.json
+8d91241116be9129e8ea8cf9a3954fbf19f9083b data\minecraft\tags\item\trimmable_armor.json
+34d1e0bd97def7c6ea24c281742ae38879aeee85 data\random-mod\tags\item\transformable_items.json
+e79e9823f40bff1b31e81e43d4a3de3a5055de70 data\minecraft\tags\item\trim_templates.json
+88998a9703362abd46a7c76406fa8651a335d345 data\minecraft\tags\item\hoes.json
+59a54976b590735546fc582b28119b3cf52e47aa data\minecraft\tags\item\pickaxes.json
+a3f87c89f1c95515981f0066b4bfd87689a9284f data\minecraft\tags\item\logs_that_burn.json
