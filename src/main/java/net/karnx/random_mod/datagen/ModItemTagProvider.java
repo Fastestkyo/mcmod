@@ -24,7 +24,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.CHARCOAL)
                 .add(Items.GOLD_NUGGET);
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.PINK_GARNET_SWORD);
+                .add(ModItems.PINK_GARNET_SWORD)
+                .add(ModItems.CONFIDENT_SWORD)
+                .add(ModItems.FROZEN_SWORD)
+                .add(ModItems.VOLCANIC_SWORD)
+                .add(ModItems.NECRO_SWORD)
+                .add(ModItems.SOUL_SWORD);
 
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.PINK_GARNET_HOE);

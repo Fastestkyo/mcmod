@@ -31,6 +31,11 @@ public class ModItemGroups {
 
                         entries.add(ModItems.PINK_GARNET_HAMMER);
                         entries.add(ModItems.TOMAHAWK);
+                        entries.add(ModItems.FROZEN_SWORD);
+                        entries.add(ModItems.CONFIDENT_SWORD);
+                        entries.add(ModItems.NECRO_SWORD);
+                        entries.add(ModItems.SOUL_SWORD);
+                        entries.add(ModItems.VOLCANIC_SWORD);
 
                         entries.add(ModItems.PINK_GARNET_HELMET);
                         entries.add(ModItems.PINK_GARNET_CHESTPLATE);

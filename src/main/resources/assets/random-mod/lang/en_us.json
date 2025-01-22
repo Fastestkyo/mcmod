@@ -6,6 +6,10 @@
   "item.random-mod.star_ashes": "Star Ashes",
 
   "item.random-mod.pink_garnet_sword": "Pink Garnet Sword",
+  "item.random-mod.frozen_sword": "Frozen Sword",
+  "item.random-mod.necro_sword": "Necro-Sword",
+  "item.random-mod.soul_sword": "Soul Sword",
+  "item.random-mod.volcanic_sword": "Volcanic Sword",
   "item.random-mod.pink_garnet_hoe": "Pink Garnet Hoe",
   "item.random-mod.pink_garnet_axe": "Pink Garnet Axe",
   "item.random-mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
@@ -18,6 +22,10 @@
   "item.minecraft.potion.effect.slimey_potion": "Potion Of Slimes",
   "item.minecraft.splash_potion.effect.slimey_potion": "Splash Potion Of Slimes",
   "item.minecraft.lingering_potion.effect.slimey_potion": "Lingering Potion Of Slimes",
+
+  "item.minecraft.potion.effect.frozen_potion": "Potion Of Slimes",
+  "item.minecraft.splash_potion.effect.frozen_potion": "Splash Potion Of Slimes",
+  "item.minecraft.lingering_potion.effect.frozen_potion": "Lingering Potion Of Slimes",
 
 
   "painting.random-mod.world.title": "World",
@@ -102,6 +110,8 @@
   "tooltip.random-mod.tomahawk.tooltip": "TOMAHAWKTUAH!§1PRESS SHIFT FOR MORE INFO.§r",
 
   "effect.random-mod.slimey": "Slimey",
+
+  "effect.random-mod.frozen": "Frozen",
   "enchantment.random-mod.lightning_striker": "Lightning Striker",
 
   "entity.random-mod.mantis": "Mantis",

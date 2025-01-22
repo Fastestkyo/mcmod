@@ -64,6 +64,7 @@ public class RandomMod implements ModInitializer {
 
 		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
 			builder.registerPotionRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION);
+			builder.registerPotionRecipe(Potions.AWKWARD, Items.SNOWBALL, ModPotions.FROZEN_POTION);
 
 		});
 		CompostingChanceRegistry.INSTANCE.add(ModItems.CAULIFLOWER, 0.5F);

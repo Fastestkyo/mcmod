@@ -25,6 +25,8 @@
 			"net.karnx.random_mod.RandomModClient"
 
 		]
+
+
 	},
 	"mixins": [
 		"random-mod.mixins.json"

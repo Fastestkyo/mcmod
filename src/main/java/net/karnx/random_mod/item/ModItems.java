@@ -5,10 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.karnx.random_mod.RandomMod;
 import net.karnx.random_mod.block.ModBlocks;
 import net.karnx.random_mod.entity.ModEntities;
-import net.karnx.random_mod.item.custom.ChiselItem;
-import net.karnx.random_mod.item.custom.HammerItem;
-import net.karnx.random_mod.item.custom.ModArmorItem;
-import net.karnx.random_mod.item.custom.TomahawkItem;
+import net.karnx.random_mod.item.custom.*;
 import net.karnx.random_mod.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.item.*;
@@ -78,6 +75,16 @@ public class ModItems {
     public static  final Item PINK_GARNET_SWORD = registerItem("pink_garnet_sword",
             new SwordItem(ModToolMaterial.PINK_GARNET, new Item.Settings()
                     .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.PINK_GARNET,3, -2.4f))));
+    public static final Item FROZEN_SWORD = registerItem("frozen_sword",
+            new FrozenSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
+    public static final Item CONFIDENT_SWORD = registerItem("confident_sword",
+            new ConfidentSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
+    public static final Item NECRO_SWORD = registerItem("necro_sword",
+            new NecroSword(ToolMaterials.IRON, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 3, -2.4f))));
+    public static final Item SOUL_SWORD = registerItem("soul_sword",
+            new SoulSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
+    public static final Item VOLCANIC_SWORD = registerItem("volcanic_sword",
+            new VolcanicSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
 
     public static  final Item PINK_GARNET_HAMMER = registerItem("pink_garnet_hammer",
             new HammerItem(ModToolMaterial.PINK_GARNET, new Item.Settings()

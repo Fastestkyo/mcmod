@@ -1,8 +1,8 @@
-// 1.21	2025-01-12T11:57:26.6621375	Random Mod/Tags for minecraft:item
+// 1.21	2025-01-22T16:22:39.5538012	Random Mod/Tags for minecraft:item
 5d980f283c325d77f5cb64aaa71cc4a804573df9 data\minecraft\tags\item\axes.json
 515511f5c787a2a48b71d419239da091702151e7 data\minecraft\tags\item\shovels.json
 a4feb2fa0a79400c6ed3137d4010b30c5d9a0beb data\minecraft\tags\item\planks.json
-e53d622093c6415802a45ccec0ed0445d15766a2 data\minecraft\tags\item\swords.json
+22cf4d19423b37b00c1030d8d4af4ccc906e8122 data\minecraft\tags\item\swords.json
 5672e7cae746fd7679405001598d1cbcc9f2a8cd data\minecraft\tags\item\trim_materials.json
 8d91241116be9129e8ea8cf9a3954fbf19f9083b data\minecraft\tags\item\trimmable_armor.json
 34d1e0bd97def7c6ea24c281742ae38879aeee85 data\random-mod\tags\item\transformable_items.json

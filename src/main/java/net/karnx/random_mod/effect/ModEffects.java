@@ -17,6 +17,9 @@ public class ModEffects {
                             Identifier.of(RandomMod.MOD_ID, "slimey"), -0.25f,
             EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
 
+    public static final RegistryEntry<StatusEffect> FROZEN = registerStatusEffect("frozen",
+            new FrozenEffect(StatusEffectCategory.HARMFUL, 0xADD8E6).addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED, Identifier.of(RandomMod.MOD_ID, "frozen"), -0.25f, EntityAttributeModifier.Operation.ADD_MULTIPLIED_TOTAL));
+
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect statusEffect) {
         return Registry.registerReference(Registries.STATUS_EFFECT, Identifier.of(RandomMod.MOD_ID, name), statusEffect);
     }
