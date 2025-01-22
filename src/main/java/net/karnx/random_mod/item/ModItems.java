@@ -85,6 +85,16 @@ public class ModItems {
             new SoulSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
     public static final Item VOLCANIC_SWORD = registerItem("volcanic_sword",
             new VolcanicSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
+    public static final Item ENDER_SWORD = registerItem("ender_sword",
+            new EnderSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
+    public static final Item KATANA_SWORD = registerItem("katana_sword",
+            new KatanaSword(ToolMaterials.IRON, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.IRON, 3, -2.4f))));
+    public static final Item SHADOW_SWORD = registerItem("shadow_sword",
+            new ShadowSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
+    public static final Item PHANTOM_SWORD = registerItem("phantom_sword",
+            new PhantomSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
+    public static final Item MAGNET_SWORD = registerItem("magnet_sword",
+            new MagnetSword(ToolMaterials.DIAMOND, new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(ToolMaterials.DIAMOND, 3, -2.4f))));
 
     public static  final Item PINK_GARNET_HAMMER = registerItem("pink_garnet_hammer",
             new HammerItem(ModToolMaterial.PINK_GARNET, new Item.Settings()

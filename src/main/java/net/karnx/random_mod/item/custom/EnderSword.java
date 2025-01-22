@@ -1,7 +1,7 @@
 package net.karnx.random_mod.item.custom;
 
-import net.minecraft.entity.projectile.FireballEntity;
 import net.minecraft.entity.player.PlayerEntity;
+
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
@@ -11,14 +11,14 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
-public class VolcanicSword extends SwordItem {
+public class EnderSword extends SwordItem {
+    private static final int COOLDOWN_TIME = 40;
+    private long lastused = 0;
 
-    private static final int COOLDOWN_TIME = 40; // Cooldown time in ticks (40 ticks = 2 seconds)
-    private long lastused = 0; // Time in ticks when the sword was last used
-
-    public VolcanicSword(ToolMaterial toolMaterial, Settings settings) {
+    public EnderSword(ToolMaterial toolMaterial, Settings settings) {
         super(toolMaterial, settings);
     }
+
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
@@ -28,19 +28,16 @@ public class VolcanicSword extends SwordItem {
             return TypedActionResult.pass(user.getStackInHand(hand));
         }
         if (world instanceof ServerWorld) {
-            launchFireball(world, user);
+            throwEnderPearl(user, world);
         }
         lastused = ticks;
         return TypedActionResult.success(user.getStackInHand(hand));
     }
 
-    private void launchFireball(World world, PlayerEntity user) {
-        Vec3d lookDirection = user.getRotationVector();
-        Vec3d fireballVelocity = new Vec3d(lookDirection.x, lookDirection.y, lookDirection.z);
-
-        FireballEntity fireball = new FireballEntity(world, user, fireballVelocity, 1); // 1 is the explosion power
-        fireball.setPos(user.getX() + fireballVelocity.x * 2, user.getY() + user.getHeight() * 0.5, user.getZ() + fireballVelocity.z * 2);
-
-        world.spawnEntity(fireball);
+    private void throwEnderPearl(PlayerEntity player, World world) {
+        net.minecraft.entity.projectile.thrown.EnderPearlEntity enderPearl = new net.minecraft.entity.projectile.thrown.EnderPearlEntity(world, player);
+        Vec3d lookDirection = player.getRotationVector();
+        enderPearl.setVelocity(lookDirection.x, lookDirection.y, lookDirection.z, 1.5f, 1.0f);  // Adjust speed and inaccuracy
+        world.spawnEntity(enderPearl);
     }
 }

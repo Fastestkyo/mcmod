@@ -1,4 +1,4 @@
-// 1.21	2025-01-22T16:22:39.5628046	Random Mod/Block Loot Tables
+// 1.21	2025-01-22T20:33:40.1182119	Random Mod/Block Loot Tables
 0454ed22deff2e3bd08b4fc8ce675f25efa2a4ee data\random-mod\loot_table\blocks\pink_garnet_ore.json
 87e90f80523395a7b134963d00d2a514d9689e26 data\random-mod\loot_table\blocks\pink_garnet_end_ore.json
 5b8c62983ed25ddfd693cb1b7f111cbced90fdc8 data\random-mod\loot_table\blocks\stripped_driftwood_log.json
@@ -15,8 +15,8 @@ d1cd95078395da830080b06d2c525e314da291de data\random-mod\loot_table\blocks\magic
 70b30aa69a436fb9ca4a890817a71729d8e5ea98 data\random-mod\loot_table\blocks\pink_garnet_nether_ore.json
 774303bfb05f1822095a1e7620bfd923d07bd417 data\random-mod\loot_table\blocks\pink_garnet_block.json
 e973e62b79d64185a612868b361b2bc89741e496 data\random-mod\loot_table\blocks\pink_garnet_slab.json
-118692932a07110bf34d6d8f2c257e8f50d0322b data\random-mod\loot_table\blocks\driftwood_leaves.json
 8ed1167e40c311dd78ce503b954f7a4f44d6b9c2 data\random-mod\loot_table\blocks\pink_garnet_trapdoor.json
+118692932a07110bf34d6d8f2c257e8f50d0322b data\random-mod\loot_table\blocks\driftwood_leaves.json
 3ac9a0fbe1e73cb073d71efccbbb24cba3e4d57b data\random-mod\loot_table\blocks\driftwood_log.json
 44d4850005f57ccc5946263e886b7d130877a8ce data\random-mod\loot_table\blocks\driftwood_sapling.json
 bfca12d5475bf1bf7a0e8e397b35f4b94d74ac46 data\random-mod\loot_table\blocks\pink_garnet_door.json

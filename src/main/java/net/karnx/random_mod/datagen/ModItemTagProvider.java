@@ -29,7 +29,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.FROZEN_SWORD)
                 .add(ModItems.VOLCANIC_SWORD)
                 .add(ModItems.NECRO_SWORD)
-                .add(ModItems.SOUL_SWORD);
+                .add(ModItems.SOUL_SWORD)
+                .add(ModItems.ENDER_SWORD)
+                .add(ModItems.KATANA_SWORD);
+
 
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.PINK_GARNET_HOE);

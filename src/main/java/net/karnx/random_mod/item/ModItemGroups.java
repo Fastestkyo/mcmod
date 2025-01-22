@@ -36,6 +36,11 @@ public class ModItemGroups {
                         entries.add(ModItems.NECRO_SWORD);
                         entries.add(ModItems.SOUL_SWORD);
                         entries.add(ModItems.VOLCANIC_SWORD);
+                        entries.add(ModItems.ENDER_SWORD);
+                        entries.add(ModItems.KATANA_SWORD);
+                        entries.add(ModItems.SHADOW_SWORD);
+                        entries.add(ModItems.PHANTOM_SWORD);
+                        entries.add(ModItems.MAGNET_SWORD);
 
                         entries.add(ModItems.PINK_GARNET_HELMET);
                         entries.add(ModItems.PINK_GARNET_CHESTPLATE);

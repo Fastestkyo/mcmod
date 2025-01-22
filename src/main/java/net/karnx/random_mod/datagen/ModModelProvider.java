@@ -72,6 +72,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NECRO_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SOUL_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.VOLCANIC_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.KATANA_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.SHADOW_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PHANTOM_SWORD, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);

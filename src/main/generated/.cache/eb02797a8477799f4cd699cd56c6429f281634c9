@@ -1,4 +1,4 @@
-// 1.21	2025-01-22T16:22:39.569806	Random Mod/Model Definitions
+// 1.21	2025-01-22T20:33:40.1227385	Random Mod/Model Definitions
 0aa9ab8968cfaf5a9ebace10521d42d55ae853c7 assets\random-mod\models\block\pink_garnet_nether_ore.json
 6c5e4591da371479656b88bfc820fc5c2e879d43 assets\random-mod\models\item\slime_boots_emerald_trim.json
 81c0df69f8dae38c5e8f1e734aba8d6e205b37bb assets\random-mod\models\item\slime_boots.json
@@ -24,6 +24,7 @@ a5005a735bf8afd41ba7c6a775b0832f62be4a09 assets\random-mod\models\block\pink_gar
 cf7a824ac925a01154846b3c1ba487159cd240a3 assets\random-mod\models\item\slime_helmet_quartz_trim.json
 b5d68ff6e8601636cde278a1bf0b55be70078440 assets\random-mod\blockstates\pink_garnet_pressure_plate.json
 da86694fe7a5aff8b6e850cb6cfc09dbe7cc530d assets\random-mod\models\item\raw_pink_garnet_block.json
+48a95522e419960eca8807090bad42e30a3e2d57 assets\random-mod\models\item\katana_sword.json
 67089c634f60a6a381392c72392f40dd4bda715e assets\random-mod\models\block\pink_garnet_door_bottom_right.json
 144091acc74d596a511f272f95b0f03d8a13eccd assets\random-mod\models\block\honey_berry_bush_stage3.json
 bac78535769eb3a513fc6437edc5fcd39bcdbe2e assets\random-mod\blockstates\pink_garnet_door.json
@@ -35,6 +36,7 @@ bac78535769eb3a513fc6437edc5fcd39bcdbe2e assets\random-mod\blockstates\pink_garn
 2ce8422753ef20871dec297fc8e6f4020c875814 assets\random-mod\models\item\pink_garnet_pressure_plate.json
 6d9bed83d90644dd4bfe0785d1e4ac1798a1b5a1 assets\random-mod\models\item\pink_garnet_shovel.json
 4a83c16da148be36c6610787d8b0a5c835880cde assets\random-mod\models\block\pink_garnet_stairs.json
+d169e272b803d4c8b4f330d36f161fbcf5013c30 assets\random-mod\models\item\phantom_sword.json
 57d42ad245afdf021e2b731cf566a932a15bba9d assets\random-mod\models\block\cauliflower_crop_stage0.json
 bf8d75077e9e98cdde67d50fa57dd0af93e47434 assets\random-mod\models\item\soul_sword.json
 236bb162831f01ae12d271a15db765e33175f0fd assets\random-mod\models\item\slime_chestplate_iron_trim.json
@@ -71,10 +73,11 @@ b2ab3e7b81ef36f0d82d644300c4ad56135473b9 assets\random-mod\models\block\stripped
 4e6e2bcca91c0e987d4bd2c6fdaf5abdecbadd41 assets\random-mod\models\block\pink_garnet_fence_gate.json
 6deff1e3c60abacd8ece575c7bd3fde52fb6dcef assets\random-mod\blockstates\honey_berry_bush.json
 1977fe4ce027f5724d607d906f6a71af8f41592e assets\random-mod\models\item\pink_garnet_leggings_lapis_trim.json
-6f588b8570590509b4a6114ec6be3a7c589ed6ce assets\random-mod\blockstates\cauliflower_crop.json
 dfef65dbfa91a28e1223a07d2344f9694b54369c assets\random-mod\blockstates\pink_garnet_lamp.json
+6f588b8570590509b4a6114ec6be3a7c589ed6ce assets\random-mod\blockstates\cauliflower_crop.json
 75f9a691736bc26a7400b0cc6baebab149ae7399 assets\random-mod\models\item\pink_garnet_helmet_lapis_trim.json
 144a69cfc4af2bca939b15dceb63eef1e7f11192 assets\random-mod\models\item\pink_garnet_chestplate_emerald_trim.json
+391f4781dd69ad7b046df2e17b28aecec0cab61c assets\random-mod\models\item\shadow_sword.json
 a61da72b659892eb9c43f4c1204581ecdbf9bdb3 assets\random-mod\models\block\pink_garnet_lamp_on.json
 909d890f3a0555a792d20056b61d5f97ffd8ed4f assets\random-mod\models\item\slime_helmet_emerald_trim.json
 7a6bbd8d0c98a007ec90b45599cb06583a9f9cdb assets\random-mod\models\block\pink_garnet_wall_inventory.json
@@ -111,6 +114,7 @@ c03032f0867f8321a43ceb67dbbcacc4aec2a7e1 assets\random-mod\models\item\cauliflow
 3d8154810c30b88a64e4c01a39facad6ddc5c8ba assets\random-mod\models\item\slime_leggings_emerald_trim.json
 d4688df027460635587efbe3ef03285eb05c9dfe assets\random-mod\models\item\slime_leggings_netherite_trim.json
 a308924e8bd136bf6f267cac6e8842dc01d65fc1 assets\random-mod\models\block\magic_block.json
+14d52e1a67bd6f15257d4bed09bd3d0c76bfd49c assets\random-mod\models\item\ender_sword.json
 db8d78bc100e4f4e1d14e54d3a3e56e9de2e391e assets\random-mod\models\item\slime_boots_iron_trim.json
 d79a4bc9de03cbe79e0dc68a3837ef2116bb0e43 assets\random-mod\models\block\pink_garnet_end_ore.json
 c6b122690c63fcd96099f82f5cbafeb109066199 assets\random-mod\models\item\slime_leggings_lapis_trim.json
@@ -165,6 +169,7 @@ ab64b73f8213e46c904da2d4356bf01653135c82 assets\random-mod\models\item\pink_garn
 8f8eb8688a2a208d3818bfb023e29561ed7677e8 assets\random-mod\models\block\pink_garnet_stairs_outer.json
 6fd8b11e919ea16e9f7b19361e9d0ae4d6603674 assets\random-mod\models\item\slime_chestplate_diamond_trim.json
 e14e2349dd9f84073b8e72564cef334138034f64 assets\random-mod\models\block\honey_berry_bush_stage2.json
+d9290b8ff425455bdc7c58ea5e1271c4221d42ad assets\random-mod\models\item\volcanic_sword.json
 238f04f747965da8931522ef9e82a86cce8f687c assets\random-mod\models\item\pink_garnet_end_ore.json
 9a0f30c99123aa9df88f680bd06d0b2e9c24de3b assets\random-mod\models\item\pink_garnet_door.json
 357cad122a5f085a552d7914282327503643590f assets\random-mod\models\item\slime_boots_lapis_trim.json
