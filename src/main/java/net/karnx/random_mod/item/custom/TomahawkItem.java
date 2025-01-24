@@ -25,12 +25,10 @@ public class TomahawkItem extends Item {
             tomahawk.setVelocity(user, user.getPitch(), user.getYaw(), 0.0f, 1.5f, 0f);
             world.spawnEntity(tomahawk);
         }
-
         user.incrementStat(Stats.USED.getOrCreateStat(this));
         if (!user.getAbilities().creativeMode) {
             itemStack.decrement(1);
         }
-
         return TypedActionResult.success(itemStack, world.isClient());
     }
 }

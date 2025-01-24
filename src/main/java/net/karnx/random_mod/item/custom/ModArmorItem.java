@@ -20,10 +20,6 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     private static final Map<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>>())
-                    .put(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL,
-                            List.of(new StatusEffectInstance(StatusEffects.HASTE, 400, 2, false, false),
-                                    new StatusEffectInstance(StatusEffects.JUMP_BOOST, 400, 1, false, false),
-                                    (new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400, 1, false, false))))
                     .put(ModArmorMaterials.SLIME_ARMOR_MATERIAL,
                          List.of(new StatusEffectInstance(ModEffects.SLIMEY, 400, 2, false, false))).build();
 

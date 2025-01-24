@@ -12,19 +12,17 @@ public class KatanaSword extends SwordItem {
     public KatanaSword(ToolMaterial toolMaterial, Settings settings) {
         super(toolMaterial, settings);
     }
-
-    private static final int COMBO_TIME = 60;
-    private int comboCount = 0;
+    private int combo = 0;
     private long lasthit = 0;
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         long time = world.getTime();
-        if (time - lasthit > COMBO_TIME) {
-            comboCount = 0;
+        if (time - lasthit > 60) {
+            combo = 0;
         }
-        if (comboCount < 3) {
-            comboCount++;
+        if (combo < 3) {
+            combo++;
         }
         lasthit = time;
         applyCombo(user);
@@ -32,7 +30,7 @@ public class KatanaSword extends SwordItem {
     }
 
     private void applyCombo(PlayerEntity user) {
-        switch (comboCount) {
+        switch (combo) {
             case 1:
                 break;
             case 2:
@@ -42,7 +40,7 @@ public class KatanaSword extends SwordItem {
                 user.getMainHandStack().setDamage(user.getMainHandStack().getDamage() -3);
                 break;
             default:
-                comboCount = 0;
+                combo = 0;
                 break;
         }
     }

@@ -12,19 +12,15 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 
 public class EnderSword extends SwordItem {
-    private static final int COOLDOWN_TIME = 40;
     private long lastused = 0;
-
     public EnderSword(ToolMaterial toolMaterial, Settings settings) {
         super(toolMaterial, settings);
     }
-
-
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (world.isClient) return super.use(world, user, hand);
         long ticks = world.getTime();
-        if (ticks - lastused < COOLDOWN_TIME) {
+        if (ticks - lastused < 60) {
             return TypedActionResult.pass(user.getStackInHand(hand));
         }
         if (world instanceof ServerWorld) {

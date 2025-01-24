@@ -16,7 +16,6 @@ public class PhantomSword extends SwordItem {
         super(toolMaterial, settings);
     }
     private static final int CD = 100;
-    private static final int invistime = 60;
     private long lastused = 0;
 
 

@@ -18,7 +18,6 @@ public class SoulSword extends SwordItem {
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         return super.use(world, user, hand);
     }
-
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         if (attacker instanceof  PlayerEntity player) {
@@ -27,7 +26,6 @@ public class SoulSword extends SwordItem {
             player.heal(heal);
             int exp = (int) (dmg * 0.5);
             player.addExperience(exp);
-
         }
 
         return super.postHit(stack, target, attacker);

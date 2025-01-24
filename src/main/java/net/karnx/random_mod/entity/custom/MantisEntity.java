@@ -18,6 +18,7 @@ import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.server.world.ServerWorld;
@@ -44,7 +45,7 @@ public class MantisEntity extends AnimalEntity {
         this.goalSelector.add(0, new SwimGoal(this));
 
         this.goalSelector.add(1, new AnimalMateGoal(this, 1.15D));
-        this.goalSelector.add(2, new TemptGoal(this, 1.25D, Ingredient.ofItems(ModItems.CAULIFLOWER), false));
+        this.goalSelector.add(2, new TemptGoal(this, 1.25D, Ingredient.ofItems(Items.SLIME_BALL), false));
 
         this.goalSelector.add(3, new FollowParentGoal(this, 1.1D));
 
@@ -81,7 +82,7 @@ public class MantisEntity extends AnimalEntity {
 
     @Override
     public boolean isBreedingItem(ItemStack stack) {
-        return stack.isOf(ModItems.CAULIFLOWER);
+        return stack.isOf(Items.SLIME_BALL);
     }
 
     @Nullable
@@ -89,6 +90,7 @@ public class MantisEntity extends AnimalEntity {
     public PassiveEntity createChild(ServerWorld world, PassiveEntity entity) {
         MantisEntity baby = ModEntities.MANTIS.create(world);
         MantisVariant variant = Util.getRandom(MantisVariant.values(), this.random);
+        assert baby != null;
         baby.setVariant(variant);
         return ModEntities.MANTIS.create(world);
     }

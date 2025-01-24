@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "random-mod:block/pink_garnet_block",
-    "side": "random-mod:block/pink_garnet_block",
-    "top": "random-mod:block/pink_garnet_block"
-  }
-}

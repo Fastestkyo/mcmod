@@ -1,14 +1,3 @@
-// 1.21	2025-01-22T20:33:40.1142138	Random Mod/
-4fcd71e520bec6a5854802586a6b3ac8ed4805e4 data\random-mod\worldgen\placed_feature\nether_pink_garnet_ore_placed.json
-b3c2db2543582ece05790dd1cacd9e2ca97d13f8 data\random-mod\worldgen\configured_feature\driftwood.json
-5ff5cdc089812ddd6c5bce95385f2dad1c19dd02 data\random-mod\worldgen\placed_feature\end_pink_garnet_ore_placed.json
-14622d5f2f11ea9c66f29e4b3c1fc59e67b4cb52 data\random-mod\worldgen\configured_feature\honey_berry_bush.json
-694efbc66731f12522ac5d9aef19953b94ce57b3 data\random-mod\worldgen\placed_feature\driftwood_placed.json
-8c3e5f7a2fe7c7a19c07f1bbc04a1dc068e3e275 data\random-mod\worldgen\configured_feature\pink_garnet_ore.json
-14373c8a3a6b0af027cb46fbe90d53f65beb7677 data\random-mod\worldgen\configured_feature\nether_pink_garnet_ore.json
-33fc254adc62c5c6c4a23712e374d47935b8e006 data\random-mod\worldgen\placed_feature\honey_berry_bush_placed.json
+// 1.21	2025-01-23T16:36:31.0672958	Random Mod/
 ab24699472a1ff4a6e0ee74f216e258c0a2697fd data\random-mod\trim_pattern\karnx.json
-4cf40c35a227010b0b484267f29d1233d2619fa9 data\random-mod\trim_material\pink_garnet.json
 2403aa31ae5fc1646c582a2ca6b95a4d4c65a7b5 data\random-mod\enchantment\lightning_striker.json
-d0f589854c0ce5d1fe4dd543009b0af7107f5c30 data\random-mod\worldgen\configured_feature\end_pink_garnet_ore.json
-7415e87c9350afdca769b260c6655e66434e352b data\random-mod\worldgen\placed_feature\pink_garnet_ore_placed.json

@@ -5,36 +5,7 @@
       "random-mod:chisel_use"
     ]
   },
-  "magic_block_break": {
-    "subtitle": "sounds.random-mod.magic_block_break",
-    "sounds": [
-      "random-mod:magic_block_break"
-    ]
-  },
-  "magic_block_step": {
-    "subtitle": "sounds.random-mod.magic_block_step",
-    "sounds": [
-      "random-mod:magic_block_step"
-    ]
-  },
-  "magic_block_place": {
-    "subtitle": "sounds.random-mod.magic_block_place",
-    "sounds": [
-      "random-mod:magic_block_place"
-    ]
-  },
-  "magic_block_hit": {
-    "subtitle": "sounds.random-mod.magic_block_hit",
-    "sounds": [
-      "random-mod:magic_block_hit"
-    ]
-  },
-  "magic_block_fall": {
-    "subtitle": "sounds.random-mod.magic_block_fall",
-    "sounds": [
-      "random-mod:magic_block_fall"
-    ]
-  },
+
   "bar_brawl": {
     "sounds": [
       {

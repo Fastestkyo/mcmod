@@ -1,11 +1,5 @@
 {
-  "item.random-mod.pink_garnet": "Pink Garnet",
-  "item.random-mod.raw_pink_garnet": "Raw Pink Garnet",
-  "item.random-mod.chisel": "Pink Garnet Chisel",
-  "item.random-mod.cauliflower": "Cauliflower",
-  "item.random-mod.star_ashes": "Star Ashes",
 
-  "item.random-mod.pink_garnet_sword": "Pink Garnet Sword",
   "item.random-mod.frozen_sword": "Frozen Sword",
   "item.random-mod.necro_sword": "Necro-Sword",
   "item.random-mod.confident_sword": "Sword of Confidence",
@@ -14,14 +8,9 @@
   "item.random-mod.volcanic_sword": "Volcanic Sword",
   "item.random-mod.shadow_sword": "Shadow Sword",
   "item.random-mod.phantom_sword": "Phantom Sword",
-  "item.random-mod.pink_garnet_hoe": "Pink Garnet Hoe",
-  "item.random-mod.pink_garnet_axe": "Pink Garnet Axe",
-  "item.random-mod.pink_garnet_pickaxe": "Pink Garnet Pickaxe",
-  "item.random-mod.pink_garnet_shovel": "Pink Garnet Shovel",
-  "item.random-mod.pink_garnet_hammer": "Pink Garnet Hammer",
+
   "item.random-mod.diamond-bow": "Diamond Bow",
-  "item.random-mod.cauliflower_seeds": "Cauliflower Seeds",
-  "item.random-mod.honey_berries": "Honey Berries",
+
 
   "item.minecraft.potion.effect.slimey_potion": "Potion Of Slimes",
   "item.minecraft.splash_potion.effect.slimey_potion": "Splash Potion Of Slimes",
@@ -38,37 +27,15 @@
   "painting.random-mod.shrimp.author": "NanoAttack",
   "painting.random-mod.saw_them.title": "Saw Them",
   "painting.random-mod.saw_them.author": "NanoAttack",
-  
-  "block.random-mod.pink_garnet_block": "Block of Pink Garnet",
-  "block.random-mod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
-
-  "block.random-mod.pink_garnet_ore": "Pink Garnet Ore",
-  "block.random-mod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
-  "block.random-mod.pink_garnet_nether_ore": "Pink Garnet Nether Ore",
-  "block.random-mod.pink_garnet_end_ore": "Pink Garnet End Ore",
-
-  "block.random-mod.driftwood_planks": "Driftwood Planks",
-  "block.random-mod.driftwood_log": "Driftwood Log",
-  "block.random-mod.driftwood_sapling": "Driftwood Sapling",
-  "block.random-mod.driftwood_leaves": "Driftwood Leaves",
-  "block.random-mod.stripped_driftwood_wood": "Stripped Driftwood Wood",
-  "block.random-mod.driftwood_wood": "Driftwood Wood",
-  "block.random-mod.stripped_driftwood_log": "Stripped Driftwood Log",
 
   "item.random-mod.bar_brawl_music_disc": "The Bar Brawl Music Disk",
   "item.random-mod.bar_brawl_music_disc.desc": "The Bar Brawl..(CC0) - Bryan Tech",
-
-  "item.random-mod.pink_garnet_helmet": "Pink Garnet Helmet",
-  "item.random-mod.pink_garnet_chestplate": "Pink Garnet Chestplate",
-  "item.random-mod.pink_garnet_leggings": "Pink Garnet Leggings",
-  "item.random-mod.pink_garnet_boots": "Pink Garnet Boots",
 
   "item.random-mod.slime_helmet": "Slimed Helmet",
   "item.random-mod.slime_chestplate": "Slimed Chestplate",
   "item.random-mod.slime_leggings": "Slimed Leggings",
   "item.random-mod.slime_boots": "Slimed Boots",
 
-  "item.random-mod.pink_garnet_horse_armor": "Pink Garnet Horse Armor",
   "item.random-mod.karnx_smithing_template": "Karnx Smithing Template",
 
   "item.random-mod.mantis_spawn_egg": "Mantis Spawn Egg",
@@ -76,46 +43,24 @@
   "item.random-mod.diamond_bow": "Diamond Bow",
   "item.random-mod.tomahawk": "Sharp Tomahawk",
 
-  "block.random-mod.magic_block": "Magic Block",
-  "itemgroup.random-mod.pink_garnet_items": "Pink Garnet Items",
-  "itemgroup.random-mod.pink_garnet_blocks": "Pink Garnet Blocks",
 
-  "block.random-mod.pink_garnet_stairs": "Pink Garnet Stairs",
-  "block.random-mod.pink_garnet_slab": "Pink Garnet Slab",
-  "block.random-mod.pink_garnet_button": "Pink Garnet Button",
-  "block.random-mod.pink_garnet_pressure_plate": "Pink Garnet Pressure Plate",
-  "block.random-mod.pink_garnet_fence": "Pink Garnet Fence",
-  "block.random-mod.pink_garnet_fence_gate": "Pink Garnet Fence Gate",
-  "block.random-mod.pink_garnet_wall": "Pink Garnet Wall",
-  "block.random-mod.pink_garnet_door": "Pink Garnet Door",
-  "block.random-mod.pink_garnet_trapdoor": "Pink Garnet Trapdoor",
-  "block.random-mod.cauliflower_crop": "Cauliflower Plant",
-  "block.random-mod.honey_berry_bush": "Honey Berry Bush",
-  "block.random-mod.pink_garnet_lamp": "Pink Garnet Lamp",
+  "itemgroup.random-mod.karnx_items": "Karnx's Items",
 
-  "tooltip.random-mod.magic_block.tooltip": "This block is §1m§2a§3g§4i§5c§6a§7l§8.§r It is made §mby§r of §lJOHAAN§r",
-  "tooltip.random-mod.chisel.shift_down": "The pink garnet chisel, made from the rarely found pink garnet.DON",
+
+  "tooltip.random-mod.chisel.shift_down": "The sigma chisel, made from skibidi",
   "tooltip.random-mod.chisel.shift_down.2": "This tool this very magical and can do something to specific blocks...",
-  "tooltip.random-mod.chisel": "A pink garnet chisel.§kskibidi§r §1PRESS SHIFT FOR MORE INFO.§r",
-  "tooltip.random-mod.cauliflower.tooltip": "§mCauliflowers are good!§r Man stfu",
-  "tooltip.random-mod.raw_pink_garnet.tooltip": "Raw §5Pink Garnet!",
-  "tooltip.random-mod.pink_garnet.tooltip": "§lI wanna eat this.",
-  "tooltip.random-mod.star_ashes.shift_down": "§4I wonder where this came from... Probably somewhere new",
-  "tooltip.random-mod.star_ashes": "§4I wonder where this came from...§1PRESS SHIFT FOR MORE INFO.",
+  "tooltip.random-mod.chisel": "A chisel.§kskibidi§r §1PRESS SHIFT FOR MORE INFO.§r",
   "tooltip.random-mod.diamond_bow.tooltip" : "diamond diamond diamond",
 
-  "trim_material.random-mod.pink_garnet": "Pink Garnet Material",
   "trim_pattern.random-mod.karnx": "Karnx Armor Pattern",
   "tooltip.random-mod.bar_brawl_music_disc.tooltip": "nananannananannanan",
-  "tooltip.random-mod.cauliflower_seeds.tooltip": "just throw this pls",
-  "tooltip.random-mod.honey_berries.tooltip": "this gibs weaving!",
 
   "tooltip.random-mod.tomahawk.tooltip.shift_down": "skbidiskbidiskibidi (idk what to add)",
   "tooltip.random-mod.tomahawk.tooltip": "TOMAHAWKTUAH!§1PRESS SHIFT FOR MORE INFO.§r",
 
   "effect.random-mod.slimey": "Slimey",
-
   "effect.random-mod.frozen": "Frozen",
+
   "enchantment.random-mod.lightning_striker": "Lightning Striker",
 
   "entity.random-mod.mantis": "Mantis",

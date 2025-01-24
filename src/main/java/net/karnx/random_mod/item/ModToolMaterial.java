@@ -3,6 +3,7 @@ package net.karnx.random_mod.item;
 import com.google.common.base.Suppliers;
 import net.karnx.random_mod.util.ModTags;
 import net.minecraft.block.Block;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.TagKey;
@@ -10,7 +11,7 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    PINK_GARNET(ModTags.Blocks.INCORRECT_FOR_PINK_GARNET_TOOL, 1320, 8.0F, 5.0F, 22, () -> Ingredient.ofItems(ModItems.PINK_GARNET));
+    PINK_GARNET(ModTags.Blocks.INCORRECT_FOR_PINK_GARNET_TOOL, 1320, 8.0F, 5.0F, 22, () -> Ingredient.ofItems(Items.DIAMOND));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

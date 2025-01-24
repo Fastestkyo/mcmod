@@ -18,13 +18,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ModTags.Items.TRANSFORMABLE_ITEMS)
-                .add(ModItems.RAW_PINK_GARNET)
-                .add(Items.COAL)
-                .add(Items.CHARCOAL)
-                .add(Items.GOLD_NUGGET);
+
         getOrCreateTagBuilder(ItemTags.SWORDS)
-                .add(ModItems.PINK_GARNET_SWORD)
+
                 .add(ModItems.CONFIDENT_SWORD)
                 .add(ModItems.FROZEN_SWORD)
                 .add(ModItems.VOLCANIC_SWORD)
@@ -34,37 +30,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.KATANA_SWORD);
 
 
-        getOrCreateTagBuilder(ItemTags.HOES)
-                .add(ModItems.PINK_GARNET_HOE);
 
-        getOrCreateTagBuilder(ItemTags.SHOVELS)
-                .add(ModItems.PINK_GARNET_SHOVEL);
 
-        getOrCreateTagBuilder(ItemTags.PICKAXES)
-                .add(ModItems.PINK_GARNET_PICKAXE);
-
-        getOrCreateTagBuilder(ItemTags.AXES)
-                .add(ModItems.PINK_GARNET_AXE);
-
-        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.PINK_GARNET_HELMET)
-                .add(ModItems.PINK_GARNET_BOOTS)
-                .add(ModItems.PINK_GARNET_CHESTPLATE)
-                .add(ModItems.PINK_GARNET_LEGGINGS);
-
-        getOrCreateTagBuilder(ItemTags.TRIM_MATERIALS)
-                .add(ModItems.PINK_GARNET);
         getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
                 .add(ModItems.KARNX_SMITHING_TEMPLATE);
 
-        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
-                .add(ModBlocks.DRIFTWOOD_LOG.asItem())
-                .add(ModBlocks.DRIFTWOOD_WOOD.asItem())
-                .add(ModBlocks.STRIPPED_DRIFTWOOD_LOG.asItem())
-                .add(ModBlocks.STRIPPED_DRIFTWOOD_WOOD.asItem());
 
-        getOrCreateTagBuilder(ItemTags.PLANKS)
-                .add(ModBlocks.DRIFTWOOD_PLANKS.asItem());
 
 
     }
